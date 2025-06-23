@@ -1,7 +1,7 @@
 #!/bin/bash
 
 namespace="go-survey"
-image_name="triple3a/gosurvey"
+image_name="majeddev/gosurvey"
 
 # remove preious docker images
 echo "--------------------Remove Previous build--------------------"
