@@ -36,3 +36,4 @@ package*.json
 index.ts
 tsconfig.json
 *.zip
+Terraform/DigitalOcean/Ubuntu_Droplet/variables.tf
