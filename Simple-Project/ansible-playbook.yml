@@ -12,15 +12,15 @@
       ignore_errors: yes
 
     - name: remove comingsoon-image
-      command: docker rmi triple3a/comingsoon-page
+      command: docker rmi majeddev/comingsoon-page
       ignore_errors: yes
 
     - name: build docker image using the Dockerfile
-      command: docker build -t triple3a/comingsoon-page .
+      command: docker build -t majeddev/comingsoon-page .
 
     - name: Push Image to dockerhub
-      command: docker push triple3a/comingsoon-page
+      command: docker push majeddev/comingsoon-page
 
     - name: run container
-      command: docker run -d --name web-container -p 5000:80 triple3a/comingsoon-page
+      command: docker run -d --name web-container -p 5000:80 majeddev/comingsoon-page
 
